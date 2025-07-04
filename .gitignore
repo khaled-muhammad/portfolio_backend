@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.mo
+*.pot
+
+# macOS
+.DS_Store
+
+# Virtualenv
+venv/
+ENV/
+env/
+
+# VSCode
+.vscode/
+
+# Django Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Media and static files
+media_root/
+static_root/
+
+# Local settings
+local_settings.py
+portfolio_backend/settings_local.py
+
+# Certificates (binary files, not source)
+Certificates/
+
+# Ignore SQLite DB
+*.sqlite3
+db.sqlite3
+
+# Ignore all dist-info and egg-info
+*.egg-info/
+*.dist-info/
+
+# Ignore test output
+htmlcov/
+.coverage
+.tox/
+
+# Ignore pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore coverage reports
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+
+# Ignore Pyre type checker
+.pyre/ 
